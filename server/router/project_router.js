@@ -5,8 +5,4 @@ const projectRouter = express.Router();
 
 projectRouter.post("/allprojects", projectController);
 projectRouter.get("/getallprojects",getProject );
-
-
-
-
 export default projectRouter;
