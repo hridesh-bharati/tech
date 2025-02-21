@@ -14,6 +14,7 @@ app.get("/", (req, res) => {
 
 app.use("/projects", projectRouter);
 app.use("/newadmin", adminrouter);
+
 // Connect to the database and start the server
 database()
   .then(() => {
